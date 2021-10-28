@@ -5,7 +5,6 @@ import { AuthContext } from '../../context/auth'
 
 export function LoginBox() {
   const { signInUrl } = useContext(AuthContext)
-
   return (
     <div className={style.loginBoxWrapper}>
       <strong>Compartilhe sua mensagem</strong>
